@@ -1,0 +1,43 @@
+body {
+	background-color: #db7777;
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+#titulo {
+	color: #391125;
+	font-size: 120px;
+}
+
+#parrafo {
+	color: #664c4c;
+	font-size: 60px;
+}
+
+#boton {
+	background-color: #97054e;
+	color: #7b6969;
+	padding: 30px 50px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#boton:hover {
+	background-color: #2f702e;
+}
+
+#flores {
+	display: none;
+	position: absolute;
+	top: 120%;
+	left: 120%;
+	transform: translate(-50%, -50%);
+}
+
+#flores img {
+	width: 100px;
+	height: 100px;
+	margin: 20px;
+	border-radius: 100%;
+}
